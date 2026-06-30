@@ -1,0 +1,54 @@
+{
+  "github_profiles": [
+    {
+      "login": "raunitpatel",
+      "name": "Raunit Patel",
+      "email": null,
+      "bio": "Final-year B.Tech @ IIT Guwahati | Data Science & AI | Building NEXUS - multi-agent AI orchestration",
+      "location": "Guwahati, India",
+      "public_repos": 23,
+      "followers": 142,
+      "company": "IIT Guwahati",
+      "blog": "https://raunitpatel.dev",
+      "html_url": "https://github.com/raunitpatel",
+      "top_languages": ["Python", "TypeScript", "Go"],
+      "pinned_repos": [
+        {
+          "name": "NEXUS",
+          "description": "Microservices-based multi-agent AI orchestration platform",
+          "language": "Python",
+          "stars": 47,
+          "topics": ["fastapi", "microservices", "ai", "kafka", "redis", "postgresql"]
+        },
+        {
+          "name": "VecForge",
+          "description": "Vector database from scratch implementing HNSW, IVFFlat indexes",
+          "language": "Go",
+          "stars": 31,
+          "topics": ["go", "vector-database", "hnsw", "grpc"]
+        }
+      ]
+    },
+    {
+      "login": "jane-doe-eng",
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "bio": "Senior Backend Engineer | Go | Distributed Systems | Kubernetes",
+      "location": "San Francisco, CA, USA",
+      "public_repos": 41,
+      "followers": 389,
+      "company": "Acme Corp",
+      "html_url": "https://github.com/jane-doe-eng",
+      "top_languages": ["Go", "Python", "Rust"],
+      "pinned_repos": [
+        {
+          "name": "k8s-operator-toolkit",
+          "description": "Toolkit for building Kubernetes operators in Go",
+          "language": "Go",
+          "stars": 210,
+          "topics": ["kubernetes", "go", "operators", "devops"]
+        }
+      ]
+    }
+  ]
+}

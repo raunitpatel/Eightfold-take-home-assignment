@@ -1,0 +1,8 @@
+{
+  "fields": [
+    { "path": "full_name", "type": "string", "required": true },
+    { "path": "years_experience", "type": "number", "required": true }
+  ],
+  "include_confidence": false,
+  "on_missing": "error"
+}

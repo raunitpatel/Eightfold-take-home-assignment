@@ -1,0 +1,9 @@
+{
+  "fields": [
+    { "path": "full_name", "type": "string", "required": true },
+    { "path": "phone", "from": "phones[0]", "type": "string" },
+    { "path": "linkedin", "from": "links.linkedin", "type": "string" }
+  ],
+  "include_confidence": false,
+  "on_missing": "omit"
+}

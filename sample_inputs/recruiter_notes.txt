@@ -1,0 +1,30 @@
+Candidate: Raunit Patel
+Phone screen done on 2024-12-10. 
+
+Strong background in distributed systems and AI. Currently finishing B.Tech at IIT Guwahati (graduating May 2026). 
+Interned at Oracle Cloud Infrastructure on biometric identity pipelines — very impressive work.
+Previous stint at HPY (healthtech startup) building SQL query engines. 
+
+Skills noted: Python, FastAPI, Kafka, Redis, microservices architecture, PostgreSQL, vector databases (pgvector).
+Also mentioned Go and Rust as languages he's learning.
+
+Phone: +91 98765 43210
+Email: raunit.patel@gmail.com
+LinkedIn: linkedin.com/in/raunit-patel
+GitHub: github.com/raunitpatel
+
+Location: Guwahati, Assam, India
+
+Overall impression: Very strong candidate. Recommend fast-track to technical round.
+CPI: 8.92 / 10.0
+
+---
+
+Candidate: Jane Doe
+Referred by internal employee. 
+7+ years backend experience. Strong Go + Kubernetes background.
+Current role: Senior Backend Engineer at Acme Corp (since March 2021).
+Education: MS CS Stanford 2018.
+Location: San Francisco, CA.
+Skills: Go, Kubernetes, Terraform, PostgreSQL, gRPC, distributed systems.
+Email: jane.doe@example.com

@@ -1,0 +1,75 @@
+{
+  "applicants": [
+    {
+      "applicant_id": "ATS-001",
+      "applicant_name": "Raunit Patel",
+      "contact_email": "raunit@iitg.ac.in",
+      "mobile": "9876543210",
+      "org": "IIT Guwahati",
+      "role": "Student / Intern",
+      "location_city": "Guwahati",
+      "location_state": "Assam",
+      "location_country": "India",
+      "portfolio_url": "https://raunitpatel.dev",
+      "linkedin": "https://linkedin.com/in/raunit-patel",
+      "github": "https://github.com/raunitpatel",
+      "skills_raw": "Python, FastAPI, PostgreSQL, Redis, Kafka, Docker, Kubernetes",
+      "years_exp": 1,
+      "education": [
+        {
+          "inst": "IIT Guwahati",
+          "deg": "B.Tech",
+          "field_of_study": "Data Science & AI",
+          "grad_year": 2026
+        }
+      ],
+      "work_history": [
+        {
+          "company": "Oracle Cloud Infrastructure",
+          "position": "Software Engineer Intern",
+          "from": "2024-05",
+          "to": "2024-08",
+          "desc": "Built biometric pipeline for identity verification."
+        },
+        {
+          "company": "HPY Healthtech",
+          "position": "Backend Intern",
+          "from": "2023-11",
+          "to": "2024-01",
+          "desc": "Built web crawlers and NLQ-to-SQL pipelines."
+        }
+      ]
+    },
+    {
+      "applicant_id": "ATS-002",
+      "applicant_name": "Jane Doe",
+      "contact_email": "jane.doe@example.com",
+      "mobile": "15558675309",
+      "org": "Acme Corp",
+      "role": "Senior Backend Engineer",
+      "location_city": "San Francisco",
+      "location_state": "CA",
+      "location_country": "US",
+      "linkedin": "https://linkedin.com/in/jane-doe",
+      "skills_raw": "Go, Kubernetes, PostgreSQL, gRPC, Terraform",
+      "years_exp": 7,
+      "education": [
+        {
+          "inst": "Stanford University",
+          "deg": "M.S.",
+          "field_of_study": "Computer Science",
+          "grad_year": 2018
+        }
+      ],
+      "work_history": [
+        {
+          "company": "Acme Corp",
+          "position": "Senior Backend Engineer",
+          "from": "2021-03",
+          "to": null,
+          "desc": "Leading distributed systems team."
+        }
+      ]
+    }
+  ]
+}

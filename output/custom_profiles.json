@@ -1,0 +1,316 @@
+[
+  {
+    "full_name": "Raunit Patel",
+    "primary_email": "raunit.patel@gmail.com",
+    "phone": "+919876543210",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis",
+      "Kafka",
+      "Microservices",
+      "Vector Databases",
+      "Docker",
+      "Kubernetes",
+      "Go",
+      "TypeScript",
+      "AI",
+      "HNSW",
+      "gRPC",
+      "Rust",
+      "pgvector",
+      "Distributed Systems"
+    ],
+    "overall_confidence": 0.836,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "direct_column_mapping",
+        "raw_value": "Raunit Patel"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "direct_column_mapping",
+        "raw_value": "raunit.patel@gmail.com"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "direct_column_mapping + E164_normalization",
+        "raw_value": "+91-98765-43210"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "direct_column_mapping",
+        "raw_value": "Software Engineer Intern @ Oracle Cloud Infrastructure"
+      },
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "field_remapping: applicant_name→full_name",
+        "raw_value": "Raunit Patel"
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "field_remapping: contact_email→emails",
+        "raw_value": "raunit@iitg.ac.in"
+      },
+      {
+        "field": "phones",
+        "source": "ats_json",
+        "method": "field_remapping: mobile→phones + E164_normalization",
+        "raw_value": "9876543210"
+      },
+      {
+        "field": "location",
+        "source": "ats_json",
+        "method": "field_remapping: location_city/state/country",
+        "raw_value": "Guwahati,Assam,India"
+      },
+      {
+        "field": "links",
+        "source": "ats_json",
+        "method": "field_remapping: linkedin/github",
+        "raw_value": "li:https://linkedin.com/in/raunit-patel gh:https://github.com/raunitpatel"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "field_remapping: skills_raw + split + canonicalize",
+        "raw_value": "Python, FastAPI, PostgreSQL, Redis, Kafka, Docker, Kubernetes"
+      },
+      {
+        "field": "years_experience",
+        "source": "ats_json",
+        "method": "field_remapping: years_exp",
+        "raw_value": "1"
+      },
+      {
+        "field": "full_name",
+        "source": "github_api",
+        "method": "api_field:name",
+        "raw_value": "Raunit Patel"
+      },
+      {
+        "field": "location",
+        "source": "github_api",
+        "method": "api_field:location + heuristic_split",
+        "raw_value": "Guwahati, India"
+      },
+      {
+        "field": "headline",
+        "source": "github_api",
+        "method": "api_field:bio",
+        "raw_value": "Final-year B.Tech @ IIT Guwahati | Data Science & AI | Building NEXUS - multi-agent AI orchestration"
+      },
+      {
+        "field": "skills",
+        "source": "github_api",
+        "method": "inferred_from:top_languages+repo_topics",
+        "raw_value": "Python, TypeScript, Go, FastAPI, Microservices, AI, Kafka, Redis, PostgreSQL, Vector Databases, HNSW, gRPC"
+      },
+      {
+        "field": "full_name",
+        "source": "recruiter_notes",
+        "method": "regex_label_match:Candidate",
+        "raw_value": "Raunit Patel"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_notes",
+        "method": "regex_label_match:Email",
+        "raw_value": "raunit.patel@gmail.com"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_notes",
+        "method": "regex_label_match:Phone + E164_normalization",
+        "raw_value": "+91 98765 43210"
+      },
+      {
+        "field": "links",
+        "source": "recruiter_notes",
+        "method": "regex_label_match:LinkedIn/GitHub",
+        "raw_value": "li:https://linkedin.com/in/raunit-patel gh:https://github.com/raunitpatel"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_notes",
+        "method": "regex_label_match:Location",
+        "raw_value": "Guwahati, Assam, India"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_notes",
+        "method": "regex_label_match:Skills_noted",
+        "raw_value": "Python, FastAPI, Kafka, Redis, microservices architecture, PostgreSQL, vector databases (pgvector)"
+      }
+    ]
+  },
+  {
+    "full_name": "Jane Doe",
+    "primary_email": "jane.doe@example.com",
+    "phone": null,
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "PostgreSQL",
+      "gRPC",
+      "Terraform",
+      "Distributed Systems",
+      "Python",
+      "Rust",
+      "Operators",
+      "Devops"
+    ],
+    "overall_confidence": 0.839,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "direct_column_mapping",
+        "raw_value": "Jane Doe"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "direct_column_mapping",
+        "raw_value": "jane.doe@example.com"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "direct_column_mapping",
+        "raw_value": "Senior Backend Engineer @ Acme Corp"
+      },
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "field_remapping: applicant_name→full_name",
+        "raw_value": "Jane Doe"
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "field_remapping: contact_email→emails",
+        "raw_value": "jane.doe@example.com"
+      },
+      {
+        "field": "phones",
+        "source": "ats_json",
+        "method": "field_remapping: mobile→phones + E164_normalization",
+        "raw_value": "15558675309"
+      },
+      {
+        "field": "location",
+        "source": "ats_json",
+        "method": "field_remapping: location_city/state/country",
+        "raw_value": "San Francisco,CA,US"
+      },
+      {
+        "field": "links",
+        "source": "ats_json",
+        "method": "field_remapping: linkedin/github",
+        "raw_value": "li:https://linkedin.com/in/jane-doe gh:None"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "field_remapping: skills_raw + split + canonicalize",
+        "raw_value": "Go, Kubernetes, PostgreSQL, gRPC, Terraform"
+      },
+      {
+        "field": "years_experience",
+        "source": "ats_json",
+        "method": "field_remapping: years_exp",
+        "raw_value": "7"
+      },
+      {
+        "field": "full_name",
+        "source": "github_api",
+        "method": "api_field:name",
+        "raw_value": "Jane Doe"
+      },
+      {
+        "field": "location",
+        "source": "github_api",
+        "method": "api_field:location + heuristic_split",
+        "raw_value": "San Francisco, CA, USA"
+      },
+      {
+        "field": "headline",
+        "source": "github_api",
+        "method": "api_field:bio",
+        "raw_value": "Senior Backend Engineer | Go | Distributed Systems | Kubernetes"
+      },
+      {
+        "field": "skills",
+        "source": "github_api",
+        "method": "inferred_from:top_languages+repo_topics",
+        "raw_value": "Go, Python, Rust, Kubernetes, Operators, Devops"
+      },
+      {
+        "field": "full_name",
+        "source": "recruiter_notes",
+        "method": "regex_label_match:Candidate",
+        "raw_value": "Jane Doe"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_notes",
+        "method": "regex_label_match:Email",
+        "raw_value": "jane.doe@example.com"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_notes",
+        "method": "regex_label_match:Location",
+        "raw_value": "San Francisco, CA."
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_notes",
+        "method": "regex_label_match:Skills_noted",
+        "raw_value": "Go, Kubernetes, Terraform, PostgreSQL, gRPC, distributed systems"
+      }
+    ]
+  },
+  {
+    "full_name": "Alice Smith",
+    "primary_email": "alice@smith.io",
+    "phone": "+14155550101",
+    "skills": null,
+    "overall_confidence": 0.871,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "direct_column_mapping",
+        "raw_value": "Alice Smith"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "direct_column_mapping",
+        "raw_value": "alice@smith.io"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "direct_column_mapping + E164_normalization",
+        "raw_value": "+1 (415) 555-0101"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "direct_column_mapping",
+        "raw_value": "ML Engineer @ OpenAI"
+      }
+    ]
+  }
+]
